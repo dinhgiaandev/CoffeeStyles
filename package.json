@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build:css": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "start": "live-server src"
+    "start:dev": "live-server src"
   },
   "keywords": [],
   "author": "dinhgiaandev",
