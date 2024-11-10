@@ -5,19 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dinhgiaandev - Coffee Style</title>
+    <link rel="favicon" href="./assets/favicon/favicon.ico">
     <link href="./output.css" type="text/css" rel="stylesheet">
+    <script src="./main.js" type="text/javascript" async></script>
 </head>
 
 <body>
     <div id="root">
-        <div class="content-wrapper max-w-screen-2xl text-base mx-auto px-8 bg-slate-200">
-            <header class="py-6 mx-10">
-                <nav class="flex justify-between items-center">
+        <div class="content-wrapper max-w-screen-2xl text-base mx-auto px-8 bg-slate-200 font-Karla">
+            <header class="p-6 mx-auto">
+                <nav class="flex flex-row justify-between items-center relative">
                     <div class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
                         CoffeeStyles.
                     </div>
-                    <ul
-                        class="basis-3/6 flex items-center justify-end gap-8 uppercase text-sm text-gray-500 font-medium">
+                    <ul id="dgad-top-menu"
+                        class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end lg:gap-7 uppercase text-sm text-gray-500 font-medium">
                         <li class="dgad-top-menu-item">
                             <a href="#" class="">Home</a>
                         </li>
@@ -33,11 +35,12 @@
                         <li class="dgad-top-menu-item">
                             <a href="#" class="">Contact</a>
                         </li>
-                        <li class="dgad-top-menu-item">
+                        <li class="dgad-top-menu-item dgad-top-menu-item-ative">
                             <a href="#" class="">StyleGuide</a>
                         </li>
                     </ul>
-                    <ul class="basis-1/6 flex justify-start item-center ml-16 text-sm text-gray-500 font-medium">
+                    <ul
+                        class="basis-3/6 lg:basis-1/6 flex justify-end lg:justify-start item-center ml-16 text-sm text-gray-500 font-medium">
                         <li class="dgad-top-menu-item">
                             <a href="#" class="flex items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -46,10 +49,17 @@
                                         d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
                                 </svg>
                                 <span class="mx-2">Cart</span>
-                                <span class="dgad-badge-circle bg-orange-400 text-white">10</span>
+                                <span class="dgad-badge-circle bg-orange-400 text-white">2</span>
                             </a>
                         </li>
                     </ul>
+                    <div class="basis-1/6 lg:hidden flex items-center cursor-pointer px-3 sm:px-6">
+                        <svg id="dgad-toggle-top-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="dgad-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </div>
                 </nav>
             </header>
             <main>
