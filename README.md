@@ -23,6 +23,6 @@
 
 </div>
 
-**© 2024 Đinh Gia Ân | All Rights Reserved**
+**© 2024 Đinh Gia Ân  |  All Rights Reserved**
 
 </div>
