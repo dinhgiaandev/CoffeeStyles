@@ -16,6 +16,10 @@
     @apply text-gray-900 font-Karla relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-light-coffee after:lg:h-0.5 after:lg:w-full
 }
 
+.dgad-button-read-story {
+    @apply text-amber-900 font-Karla relative pb-1 after:absolute after:bottom-0 after:left-0 after:bg-light-coffee after:h-0.5 after:w-full font-light
+}
+
 .dgad-icon {
     @apply w-5 h-5 inline-block;
 }
