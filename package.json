@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "start:dev": "live-server src"
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "dev": "live-server src"
   },
   "keywords": [],
   "author": "dinhgiaandev",
